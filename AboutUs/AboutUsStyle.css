@@ -2,3 +2,74 @@ body
 {
     background-color:  #1a1919;
 }
+
+h1 {
+    color: white;
+    font-size: 25px;
+    font-family: "Courier New";
+    font-weight: bolder;
+    text-align: center;
+}
+
+.aboutTitle {
+    color: white;
+    font-family: "Courier New";
+    font-weight: bolder;
+    text-align: center;
+    font-size: 2em;
+}
+.aboutDesc {
+    color: white;
+    font-family: "Courier New";
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.logo {
+    position: relative;
+    left: 37.5%;
+}
+a { 
+  color: inherit; 
+} 
+
+.about-content-flex-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 150px;
+    justify-content: space-evenly;
+    padding:10px;
+    border: 1px  #ccc; 
+    margin: 5px;
+
+}
+.about-content-flex-item {
+    padding:10px;
+    border: 1px solid #ccc; 
+    margin: 5px;
+    width: 400px;
+    height: 75px;
+
+
+}
+.abutton {
+    background-color: #333;
+    height: 75px;
+    width: 350px;
+    color: white;
+    font-size: 25px;
+    font-family: "Courier New";
+    font-weight: bolder;
+    text-align: center;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    left: 6%;
+    
+}
+.abutton:hover {
+    background-color: #3333339f;
+}
