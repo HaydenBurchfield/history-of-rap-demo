@@ -1,0 +1,52 @@
+body 
+{
+    background-color:  #1a1919;
+}
+
+
+.flexContainer1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #ccc;
+}
+
+.imgType1 {
+    margin: 25px;
+    margin-top: 45px;
+    width: 396px;
+    height: 600px;
+    border: 1px  #ccc; 
+}
+.TextContainer1 {
+    margin: 25px;
+    position: relative;
+    width: 1000px;
+    height: 400px;
+    color: white;
+    font-size: 25px;
+    font-family: "Courier New";
+    font-weight: bolder;
+    text-align: center;
+}
+.HomeButton {
+    background-color: #333;
+    height: 75px;
+    width: 350px;
+    color: white;
+    font-size: 25px;
+    font-family: "Courier New";
+    font-weight: bolder;
+    text-align: center;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    margin-left: 75px;
+    margin-right: 75px;
+    top: 75px;
+    
+}
+.HomeButton:hover {
+    background-color: #3333339f;
+}
