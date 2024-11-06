@@ -1,3 +1,119 @@
 Body{
     background-color: #1a1919 ;
+    
+}
+input, textarea{
+    width:500px ; height: 200px;
+  
+   position:relative;
+
+
+   
+ } 
+ textarea {
+    font-size: large;
+
+ }
+
+ .HomeButton {
+    background-color: #333;
+    height: 75px;
+    width: 350px;
+    color: white;
+    font-size: 25px;
+    font-family: "Courier New";
+    font-weight: bolder;
+    text-align: center;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    left: 75px;
+    
+    
+}
+.HomeButton:hover {
+    background-color: #3333339f;
+}
+
+
+
+#form {
+    position: relative;
+    width: 750px;
+    height: 250px;
+    left: 475px;
+}
+ h1
+ {
+    color: white;
+    font-size: 25px;
+    font-family: "Courier New";
+    font-weight: bolder;
+    text-align: center;
+ }
+ #ContactUs 
+ {
+    width:500px ; height: 20px;
+   
+   
+
+ }
+ .phonenumber
+ {
+    color: white;
+    font-size: 25px;
+    font-family: "Courier New";
+    font-weight: bolder;
+    text-align: center;
+
+  
+
+ } 
+ .abutton {
+    background-color: #333;
+    height: 75px;
+    width: 350px;
+    color: white;
+    font-size: 25px;
+    font-family: "Courier New";
+    font-weight: bolder;
+    text-align: center;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+     left: 6%;
+    
+}
+.abutton:hover {
+    background-color: #3333339f;
+}
+
+.about-content-flex-container {
+    position: relative;
+    display: flex;
+
+    height: 150px;
+
+    padding:10px;
+    border: 1px  #ccc; 
+    margin: 5px;
+    top: 75px;
+    left: 25px;
+
+    
+
+
+}
+.about-content-flex-item {
+    padding:10px;
+    border: 1px solid #ccc; 
+    margin: 5px;
+    width: 400px;
+    height: 75px;
+    right: 25px;
+    position: relative;
+    left:25px;
+
 }
