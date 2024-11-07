@@ -18,6 +18,15 @@ body
     height: 600px;
     border: 1px  #ccc; 
 }
+.imgType2 {
+    position: relative;
+    margin: 25px;
+    margin-top: 45px;
+    width: 396px;
+    height: 600px;
+    border: 1px  #ccc; 
+    left: 250px;
+}
 .TextContainer1 {
     margin: 25px;
     position: relative;
@@ -28,6 +37,19 @@ body
     font-family: "Courier New";
     font-weight: bolder;
     text-align: center;
+}
+.TextContainer2 {
+    margin: 25px;
+    position: relative;
+    width: 1000px;
+    height: 400px;
+    color: white;
+    font-size: 25px;
+    font-family: "Courier New";
+    font-weight: bolder;
+    text-align: center;
+    left: 100px;
+
 }
 .HomeButton {
     background-color: #333;
