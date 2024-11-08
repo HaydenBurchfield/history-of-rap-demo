@@ -31,16 +31,16 @@
     <h1> Contact Us </h1>
     <div id="form">
       <br> 
-     <h1>Email: <input style="right: -55px;" id="ContactUs" type="text" name="text"/> 
+     <h1 id = "test">Email: <input class="forms" style="right: -55px;" id="ContactUs" type="email" name="text"/> 
      </h1>
      <br> 
      <h1>
-      Phone Number: <input style="right: -0px;" id="ContactUs" type="text" name="text"/> 
+      Phone Number: <input class="forms" style="right: -0px;" id="ContactUs" type="number" name="text"/> 
      </h1>
      <br> 
-     <div style="display: flex;"><h1 style="position: relative; top: 70px; right: -50px;">Message:</h1> <textarea style="right: -105px;" type="text" name="txtAdress"></textarea></div>
+     <div style="display: flex;"><h1 style="position: relative; top: 70px; right: -50px;">Message:</h1> <textarea class="forms" style="right: -105px;" type="text" name="txtAdress"></textarea></div>
       <h1>
-        <a href="#"><button class="HomeButton">Submit</button></a>
+        <button class="HomeButton" onclick="myAlert()">Submit</button>
       
   
   
@@ -56,7 +56,13 @@
            
           </div>
 
-    
+          
     
 </body>
+<script>
+  function myAlert() {
+    alert("Message Submitted!");
+    location.replace(location.pathname)
+  }
+</script>
 </html>                                                                                                                              
