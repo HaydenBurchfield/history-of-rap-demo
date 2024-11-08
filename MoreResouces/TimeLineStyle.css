@@ -1,0 +1,135 @@
+body 
+{
+    background-color:  #1a1919;
+}
+
+h1 {
+    color: white;
+    font-size: 25px;
+    font-family: "Courier New";
+    font-weight: bolder;
+    text-align: center;
+}
+.big {
+    color: white;
+    font-size: 40px;
+    font-family: "Courier New";
+    font-weight: bolder;
+    text-align: center;
+}
+.aboutTitle {
+    color: white;
+    font-family: "Courier New";
+    font-weight: bolder;
+    text-align: center;
+    font-size: 2em;
+}
+.about-content-flex-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 150px;
+    justify-content: space-evenly;
+    padding:10px;
+    border: 1px  #ccc; 
+    margin: 5px;
+
+}
+.about-content-flex-item {
+    padding:10px;
+    border: 1px solid #ccc; 
+    margin: 5px;
+    width: 400px;
+    height: 75px;
+
+
+}
+.abutton {
+    background-color: #333;
+    height: 75px;
+    width: 350px;
+    color: white;
+    font-size: 25px;
+    font-family: "Courier New";
+    font-weight: bolder;
+    text-align: center;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    left: 6%;
+    
+}
+.abutton:hover {
+    background-color: #3333339f;
+}
+
+.flexContainer1 {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #ccc;
+}
+
+.imgType1 {
+    margin: 25px;
+    margin-top: 45px;
+    width: 396px;
+    height: 600px;
+    border: 1px  #ccc; 
+}
+.imgType2 {
+    position: relative;
+    margin: 25px;
+    margin-top: 45px;
+    width: 456px;
+    height: 567px;
+    border: 1px  #ccc; 
+    left: 200px;
+}
+.imgType3 {
+    margin: 25px;
+    margin-top: 100px;
+    width: 518px;
+    height: 388px;
+    border: 1px  #ccc; 
+    
+}
+.TextContainer1 {
+    margin: 25px;
+    position: relative;
+    width: 1000px;
+    height: 400px;
+    color: white;
+    font-size: 25px;
+    font-family: "Courier New";
+    font-weight: bolder;
+    text-align: center;
+}
+.TextContainer2 {
+    margin: 25px;
+    position: relative;
+    width: 1000px;
+    height: 400px;
+    color: white;
+    font-size: 25px;
+    font-family: "Courier New";
+    font-weight: bolder;
+    text-align: center;
+    left: 100px;
+
+}
+.TextContainer3 {
+    margin: 25px;
+    position: relative;
+    width: 1000px;
+    height: 560px;
+    color: white;
+    font-size: 25px;
+    font-family: "Courier New";
+    font-weight: bolder;
+    text-align: center;
+    left: 75px;
+}
