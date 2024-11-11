@@ -1,0 +1,151 @@
+
+body 
+{
+    background-color:  #1a1919;
+}
+
+
+.flexContainer1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #ccc;
+}
+
+.imgType1 {
+    margin: 25px;
+    margin-top: 45px;
+    width: 396px;
+    height: 584px;
+    border: 1px  #ccc; 
+    
+}
+.TextContainer1 {
+    margin: 25px;
+    position: relative;
+    width: 1000px;
+    height: 400px;
+    color: white;
+    font-size: 25px;
+    font-family: "Courier New";
+    font-weight: bolder;
+    text-align: center;
+}
+.HomeButton {
+    background-color: #333;
+    height: 75px;
+    width: 350px;
+    color: white;
+    font-size: 25px;
+    font-family: "Courier New";
+    font-weight: bolder;
+    text-align: center;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    margin-left: 75px;
+    margin-right: 75px;
+    top: 75px;
+    
+}
+.HomeButton:hover {
+    background-color: #3333339f;
+}
+
+.Earlyrap{
+   
+   
+    color: white;
+    font-size: 55px;
+    font-family: "Courier New";
+    font-weight: bolder;
+    text-align: center;
+}
+.Early
+{
+    color: white;
+    font-size: 25px;
+    font-family: "Courier New";
+    font-weight: bolder;
+    text-align: center;
+}
+.imgType2 {
+    position: relative;
+    margin: 25px;
+    margin-left: -300px;
+    width: 635px;
+    height: 450px;
+    border: 1px  #ccc; 
+    left: 250px;
+    margin-bottom: 3px;
+}
+.about-content-flex-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 150px;
+    justify-content: space-evenly;
+    padding:10px;
+    border: 1px  #ccc; 
+    margin: 5px;
+
+}
+.about-content-flex-item {
+    padding:10px;
+    border: 1px solid #ccc; 
+    margin: 5px;
+    width: 400px;
+    height: 75px;
+
+
+}
+.abutton {
+    background-color: #333;
+    height: 75px;
+    width: 350px;
+    color: white;
+    font-size: 25px;
+    font-family: "Courier New";
+    font-weight: bolder;
+    text-align: center;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    left: 6%;
+    
+}
+.abutton:hover {
+    background-color: #3333339f;
+}
+
+#Right
+{
+    position: relative;
+    text-align: center;
+    
+
+}
+#imgtype3{
+    position: relative;
+left: 250px;
+height: 450px;
+bottom: -26px;
+}
+.ImgType4
+{
+    position: relative;
+    left: 300px;
+    height: 450px;
+    bottom: -26px;
+}
+.imageeffect
+{
+    position: relative;
+    left: 300px;
+    height: 450px;
+    bottom: -11px;
+
+}
