@@ -71,23 +71,38 @@ h1 {
     flex-direction: row;
     flex-wrap: wrap;
     border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.flexItem1 {
+    text-align: center;
+    margin: 0px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
 }
 
 .imgType1 {
-    margin: 25px;
+    margin: 0px;
     margin-top: 45px;
-    width: 396px;
-    height: 600px;
+    width: 500px;
+    height: 300px;
     border: 1px  #ccc; 
+    display: flex;
+    align-items: center; 
+    justify-content: center;
 }
 .imgType2 {
-    position: relative;
-    margin: 25px;
+    margin: 0px;
     margin-top: 45px;
-    width: 456px;
-    height: 567px;
+    width: 300px;
+    height: 300px;
     border: 1px  #ccc; 
-    left: 200px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
 }
 .imgType3 {
     margin: 25px;
@@ -98,8 +113,8 @@ h1 {
     
 }
 .TextContainer1 {
-    margin: 25px;
-    position: relative;
+    margin: 0px;
+    position: center;
     width: 1000px;
     height: 400px;
     color: white;
@@ -110,7 +125,7 @@ h1 {
 }
 .TextContainer2 {
     margin: 25px;
-    position: relative;
+    position: center;
     width: 1000px;
     height: 400px;
     color: white;
@@ -123,7 +138,7 @@ h1 {
 }
 .TextContainer3 {
     margin: 25px;
-    position: relative;
+    position: center;
     width: 1000px;
     height: 560px;
     color: white;
