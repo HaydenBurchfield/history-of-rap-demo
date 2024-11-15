@@ -43,7 +43,10 @@ input, textarea{
     position: relative;
     width: 750px;
     height: 250px;
-    left: 475px;
+    position: fixed;
+    left: 46%;
+    top: 35%;
+    transform: translate(-50%, -50%);
 }
  h1
  {
